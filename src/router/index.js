@@ -1,7 +1,8 @@
 import Vue from 'vue'
 import VueRouter from 'vue-router'
 import HomeView from '../views/HomeView.vue'
-import DataBinding from '../views/DataBinding.vue'
+import DataBindingInputText from '../views/DataBindingInputText.vue'
+
 
 Vue.use(VueRouter)
 
@@ -22,7 +23,7 @@ const routes = [
   {
     path: '/databinding',
     name: 'Databinding',
-    component: DataBinding
+    component: DataBindingInputText
   }
 ]
 
