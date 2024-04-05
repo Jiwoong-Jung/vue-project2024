@@ -3,7 +3,6 @@ import VueRouter from 'vue-router'
 import HomeView from '../views/HomeView.vue'
 import DataBindingInputText from '../views/DataBindingInputText.vue'
 
-
 Vue.use(VueRouter)
 
 const routes = [
